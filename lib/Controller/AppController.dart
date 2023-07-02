@@ -2,9 +2,9 @@
 import 'package:get/get.dart';
 
 class AppController extends GetxController {
-  var appName = "GetX Flutter".obs;
+  var messageName = "Welcome to GetX".obs;
   
-  void setAppName (String _appName) {
-    appName.value = _appName;
+  void setMessage (String messageName1) {
+    messageName.value = messageName1;
   }
 }
